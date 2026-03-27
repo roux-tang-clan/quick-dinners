@@ -22,4 +22,4 @@ jobs:
 
       - name: Sync files to S3
         run: |
-          aws s3 sync ./path/to/your/logs s3://boo-github-secops-logs-jp-2026  Info
+          aws s3 sync ./path/to/your/logs s3://boo-github-secops-logs-jp-2026
